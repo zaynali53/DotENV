@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>comment</key>
+    <string>Syntax Highlighting support for Environment (.env) files</string>
+	<key>fileTypes</key>
+	<array>
+		<string>.env</string>
+        <string>.env.testing</string>
+        <string>.env.development</string>
+        <string>.env.production</string>
+	</array>
+	<key>name</key>
+	<string>DotENV</string>
+	<key>patterns</key>
+	<array>
+        <dict>
+            <key>match</key>
+            <string>(#).*?($\n?|(?=\?&gt;))</string>
+            <key>name</key>
+            <string>comment</string>
+        </dict>
+        <dict>
+            <key>match</key>
+            <string>^((?i)[a-z0-9_]+)(?==)</string>
+            <key>name</key>
+            <string>entity.name.tag</string>
+        </dict>
+        <dict>
+            <key>match</key>
+            <string>=</string>
+            <key>name</key>
+            <string>keyword.operator.assignment</string>
+        </dict>
+        <dict>
+            <key>match</key>
+            <string>\b((0(x|X)[0-9a-fA-F]*)|(([0-9]+\.?[0-9]*)|(\.[0-9]+))((e|E)(\+|-)?[0-9]+)?)\b</string>
+            <key>name</key>
+            <string>constant.numeric</string>
+        </dict>
+        <dict>
+            <key>match</key>
+            <string>\"([^\\\"]|\\.)*\"</string>
+            <key>name</key>
+            <string>string.quoted.double</string>
+        </dict>
+        <dict>
+            <key>match</key>
+            <string>\'([^\\\']|\\.)*\'</string>
+            <key>name</key>
+            <string>string.quoted.single</string>
+        </dict>
+        <dict>
+            <key>match</key>
+            <string>(?i)true|false|null</string>
+            <key>name</key>
+            <string>keyword</string>
+        </dict>
+	</array>
+	<key>scopeName</key>
+	<string>source.dotenv</string>
+    <key>uuid</key>
+    <string>7e80034d-d345-462c-add1-d5537b116d5c</string>
+</dict>
+</plist>
