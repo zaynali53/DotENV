@@ -23,13 +23,13 @@
         </dict>
         <dict>
             <key>match</key>
-            <string>^((?i)[a-z0-9_]+)(?==)</string>
+            <string>^((?i)[a-z0-9_]+)</string>
             <key>name</key>
             <string>entity.name.tag</string>
         </dict>
         <dict>
             <key>match</key>
-            <string>=</string>
+            <string>(?&lt;=[\w])=(?=[\'\"\w\d])</string>
             <key>name</key>
             <string>keyword.operator.assignment</string>
         </dict>
