@@ -42,7 +42,7 @@
 				</dict>
 			</dict>
 			<key>comment</key>
-			<string>Strings</string>
+			<string>Strings (double)</string>
 			<key>end</key>
 			<string>(\")</string>
 			<key>endCaptures</key>
@@ -70,6 +70,32 @@
 					<string>#escape-characters</string>
 				</dict>
 			</array>
+		</dict>
+		<dict>
+			<key>begin</key>
+			<string>(\')</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.string.begin.env</string>
+				</dict>
+			</dict>
+			<key>comment</key>
+			<string>Strings (single)</string>
+			<key>end</key>
+			<string>(\')</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>1</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.string.end</string>
+				</dict>
+			</dict>
+			<key>name</key>
+			<string>string.quoted.single.env</string>
 		</dict>
 		<dict>
 			<key>comment</key>

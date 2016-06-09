@@ -12,16 +12,25 @@ patterns:
     captures:
       '1': { name: punctuation.definition.comment.env }
 
-  - comment: Strings
+  - comment: Strings (double)
     name: string.quoted.double.env
-    begin: '(\")'
+    begin: (\")
     beginCaptures:
       '1': { name: punctuation.definition.string.begin.env }
     patterns:
       - include: '#interpolation'
       - include: '#variable'
       - include: '#escape-characters'
-    end: '(\")'
+    end: (\")
+    endCaptures:
+      '1': { name: punctuation.definition.string.end }
+
+  - comment: Strings (single)
+    name: string.quoted.single.env
+    begin: (\')
+    beginCaptures:
+      '1': { name: punctuation.definition.string.begin.env }
+    end: (\')
     endCaptures:
       '1': { name: punctuation.definition.string.end }
 
