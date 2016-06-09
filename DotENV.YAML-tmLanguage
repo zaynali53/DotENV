@@ -79,5 +79,5 @@ repository:
 
   escape-characters:
     patterns:
-    - match: '\\[nrt\\\$\"]'
+    - match: \\[nrt\\\$\"\']
       name: constant.character.escape.env
