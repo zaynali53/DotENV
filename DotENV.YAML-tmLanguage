@@ -39,7 +39,7 @@ patterns:
     name: keyword.operator.assignment.env
 
   - comment: Variable
-    match: '([\w]+)(?=\=)'
+    match: '([\w]+)(?=\s?\=)'
     name: variable.other.env
 
   - comment: Keywords

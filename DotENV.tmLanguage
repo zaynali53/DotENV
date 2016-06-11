@@ -109,7 +109,7 @@
 			<key>comment</key>
 			<string>Variable</string>
 			<key>match</key>
-			<string>([\w]+)(?=\=)</string>
+			<string>([\w]+)(?=\s?\=)</string>
 			<key>name</key>
 			<string>variable.other.env</string>
 		</dict>
