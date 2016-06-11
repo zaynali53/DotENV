@@ -101,7 +101,7 @@
 			<key>comment</key>
 			<string>Assignment Operator</string>
 			<key>match</key>
-			<string>(?&lt;=[\w])=(?=[\'\"\w\d])</string>
+			<string>(?&lt;=[\w])\s?=</string>
 			<key>name</key>
 			<string>keyword.operator.assignment.env</string>
 		</dict>

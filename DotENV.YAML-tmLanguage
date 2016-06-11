@@ -35,7 +35,7 @@ patterns:
       '1': { name: punctuation.definition.string.end }
 
   - comment: Assignment Operator
-    match: (?<=[\w])=(?=[\'\"\w\d])
+    match: (?<=[\w])\s?=
     name: keyword.operator.assignment.env
 
   - comment: Variable
