@@ -125,7 +125,7 @@
 			<key>comment</key>
 			<string>Constants</string>
 			<key>match</key>
-			<string>(?i)(?&lt;=\=)(true|false|null)</string>
+			<string>(?i)(?&lt;=\=)\s?(true|false|null)</string>
 			<key>name</key>
 			<string>constant.language.env</string>
 		</dict>

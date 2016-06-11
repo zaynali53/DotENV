@@ -47,7 +47,7 @@ patterns:
     name: keyword.other.env
 
   - comment: Constants
-    match: '(?i)(?<=\=)(true|false|null)'
+    match: '(?i)(?<=\=)\s?(true|false|null)'
     name: constant.language.env
 
   - comment: Numeric
