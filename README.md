@@ -18,4 +18,6 @@ SublimeText Syntax Highlighting support for Environment (.env) Files
 1. Clone the repo to your Packages folder.
 2. Activate by `Ctrl+Shift+P` and fuzzy search `syntax dotenv` and hit **`Enter`**
 
-![DotENV Preview](preview.png)
+#### Preview:
+
+![Comparison](comparison.png)
