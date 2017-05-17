@@ -2,7 +2,19 @@
 ---
 name: DotENV
 scopeName: source.env
-fileTypes: [ '.env', '.env.example', '.env.local', '.env.production', '.env.testing' ]
+fileTypes: [
+  ".env",
+  ".env.development",
+  ".env.test",
+  ".env.production",
+  ".env.local",
+  ".env.development.local",
+  ".env.test.local",
+  ".env.production.local",
+  ".env.example",
+  ".envrc",
+  ".env.dusk.local"
+]
 uuid: 09d4e117-0975-453d-a74b-c2e525473f97
 
 patterns:

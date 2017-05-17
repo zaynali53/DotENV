@@ -5,10 +5,16 @@
 	<key>fileTypes</key>
 	<array>
 		<string>.env</string>
-		<string>.env.example</string>
-		<string>.env.local</string>
+		<string>.env.development</string>
+		<string>.env.test</string>
 		<string>.env.production</string>
-		<string>.env.testing</string>
+		<string>.env.local</string>
+		<string>.env.development.local</string>
+		<string>.env.test.local</string>
+		<string>.env.production.local</string>
+		<string>.env.example</string>
+		<string>.envrc</string>
+		<string>.env.dusk.local</string>
 	</array>
 	<key>name</key>
 	<string>DotENV</string>
