@@ -15,6 +15,7 @@
 		<string>.env.example</string>
 		<string>.envrc</string>
 		<string>.env.dusk.local</string>
+		<string>.env.dist</string>
 	</array>
 	<key>name</key>
 	<string>DotENV</string>
