@@ -11,8 +11,10 @@ fileTypes: [
   ".env.example",
   ".env.test",
   ".env.test.local",
+  ".env.dev",
   ".env.development",
   ".env.development.local",
+  ".env.prod",
   ".env.production",
   ".env.production.local",
   ".env.dusk.local"

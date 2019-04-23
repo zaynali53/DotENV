@@ -12,8 +12,10 @@
 		<string>.env.example</string>
 		<string>.env.test</string>
 		<string>.env.test.local</string>
+		<string>.env.dev</string>
 		<string>.env.development</string>
 		<string>.env.development.local</string>
+		<string>.env.prod</string>
 		<string>.env.production</string>
 		<string>.env.production.local</string>
 		<string>.env.dusk.local</string>
