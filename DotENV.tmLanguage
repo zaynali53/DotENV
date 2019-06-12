@@ -19,6 +19,7 @@
 		<string>.env.production</string>
 		<string>.env.production.local</string>
 		<string>.env.dusk.local</string>
+		<string>.flaskenv</string>
 	</array>
 	<key>name</key>
 	<string>DotENV</string>

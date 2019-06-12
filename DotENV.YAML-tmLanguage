@@ -17,7 +17,8 @@ fileTypes: [
   ".env.prod",
   ".env.production",
   ".env.production.local",
-  ".env.dusk.local"
+  ".env.dusk.local",
+  ".flaskenv"
 ]
 uuid: 09d4e117-0975-453d-a74b-c2e525473f97
 
