@@ -11,6 +11,7 @@ fileTypes: [
   ".env.example",
   ".env.test",
   ".env.test.local",
+  ".env.testing",
   ".env.dev",
   ".env.development",
   ".env.development.local",
