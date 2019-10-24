@@ -12,6 +12,7 @@
 		<string>.env.example</string>
 		<string>.env.test</string>
 		<string>.env.test.local</string>
+		<string>.env.testing</string>
 		<string>.env.dev</string>
 		<string>.env.development</string>
 		<string>.env.development.local</string>
