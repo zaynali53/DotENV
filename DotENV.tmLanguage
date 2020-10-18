@@ -5,7 +5,6 @@
 	<key>fileTypes</key>
 	<array>
 		<string>.env</string>
-		<string>.envrc</string>
 		<string>.env.dist</string>
 		<string>.env.local</string>
 		<string>.env.sample</string>
@@ -20,8 +19,11 @@
 		<string>.env.production</string>
 		<string>.env.production.local</string>
 		<string>.env.dusk.local</string>
-		<string>.flaskenv</string>
 		<string>.env.staging</string>
+		<string>.env.default</string>
+		<string>.env.defaults</string>
+		<string>.envrc</string>
+		<string>.flaskenv</string>
 	</array>
 	<key>name</key>
 	<string>DotENV</string>
