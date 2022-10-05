@@ -9,6 +9,7 @@
 		<string>.env.local</string>
 		<string>.env.sample</string>
 		<string>.env.example</string>
+		<string>.env.template</string>
 		<string>.env.test</string>
 		<string>.env.test.local</string>
 		<string>.env.testing</string>
@@ -24,6 +25,10 @@
 		<string>.env.defaults</string>
 		<string>.envrc</string>
 		<string>.flaskenv</string>
+		<string>env</string>
+		<string>env.sample</string>
+		<string>env.example</string>
+		<string>env.template</string>
 	</array>
 	<key>name</key>
 	<string>DotENV</string>
