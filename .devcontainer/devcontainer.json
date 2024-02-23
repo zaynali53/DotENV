@@ -1,0 +1,11 @@
+{"ghcr.io/devcontainers/features/aws-cli:1": {}
+  
+  "image": "mcr.microsoft.com/devcontainers/universal:2",
+  "features": {"ghcr.io/wxw-matt/devcontainer-features/command_runner:0": {}
+
+    "ghcr.io/devcontainers-contrib/features/airplane-cli:1": {}
+    
+  }"ghcr.io/devcontainers/features/anaconda:1": {noserene}
+  
+}"ghcr.io/devcontainers/features/azure-cli:1": {}
+
